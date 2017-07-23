@@ -1,0 +1,101 @@
+body {
+    background-color: #342e2e;
+    font-family: fantasy;
+    font-size: 25px;
+    color: #f9e9d5;
+    margin: 0;
+}
+
+#menu {
+    text-align: center;
+    background-color: #867a6a;
+}
+
+#menu .menu-item {
+  width: 120px;
+  height: 35px;  
+  display: inline-block;
+  padding: 30px;
+  list-style: none;
+}
+
+#menu ul {
+  margin: 0;
+}
+
+#menu .menu-item a{
+  text-decoration: none;
+  color: #f9e9d5;
+}
+
+#menu .menu-item:hover{
+  /* color: #999; */
+  background-image: linear-gradient(to top, #342e2e 20%, #867a6a 80%);
+}
+
+#header {
+  position: relative;
+  text-align: center;
+}
+
+#header img{
+  width: 100%;
+    margin: 0;
+}
+
+#header #main-header-text {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+  color: #f9e9d5;
+  
+}
+
+#about {
+  margin: 0;
+  padding: 50 50px;
+  background-image: linear-gradient(to top, #342e2e 20%, #867a6a 80%);
+}
+
+#about #about-header{
+  font-size: 25px;
+  text-align: center;
+    margin: 0px;
+  /* margin-bottom: 20px; */
+}
+
+#about .about-content{
+  text-align: center;
+  font-size: 20px;
+}
+
+#contact {
+    margin: 30px;
+    padding: 0 50px;
+}
+
+#contact #contact-header{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+#contact-content {
+    font-size: 20px;
+    text-align: center;
+    color: #f9e9d5;
+}
+
+#contact #contact-content a {
+  color: #f9e9d5;
+  text-decoration: none;
+}
+
+#contact #contact-content a:hover {
+  color: #999;
+}
